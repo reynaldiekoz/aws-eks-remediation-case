@@ -47,15 +47,15 @@ MIT Licensed. See LICENSE for full details.
 * [Terraform-Learn-EKS(AWS) Github](https://github.com/hashicorp/learn-terraform-provision-eks-cluster)
 
 ## Remediation Cases
-*Remediation resource AWS
-*Logging Enabled on CloudWatch
+* Remediation resource AWS
+* Logging Enabled on CloudWatch
 
 ## Standart and Compliance 
-*AWS EKS security groups allow incoming traffic only on TCP port 443 Done. 
-*Envelope encryption for EKS Kubernetes Secrets is enabled using Amazon KMS Done.
-*EKS control plane logging is enabled for your Amazon EKS clusters Done.
-*The latest version of Kubernetes is installed on your Amazon EKS clusters Done.
-*Amazon EKS configuration changes are monitored Done. 
+* AWS EKS security groups allow incoming traffic only on TCP port 443 Done. 
+* Envelope encryption for EKS Kubernetes Secrets is enabled using Amazon KMS Done.
+* EKS control plane logging is enabled for your Amazon EKS clusters Done.
+* The latest version of Kubernetes is installed on your Amazon EKS clusters Done.
+* Amazon EKS configuration changes are monitored Done. 
 
 ## Remediation Solution Steps
 * Required IAM User with AdministratorAccess or you can costumize it using RBAC principal (since i was deploying on my own aws account and just for testing perpose thats why i just use AdministatorAccess )
@@ -79,7 +79,7 @@ MIT Licensed. See LICENSE for full details.
 
 ## File / Folder details
 
-*put all the script on modules so we can easily call and change the  variable via main.tf
+* put all the script on modules so we can easily call and change the  variable via main.tf
 * im naming the files as its used for, ex eks.tf contain eks terraform configuration.. etc
 
 Thank you!
